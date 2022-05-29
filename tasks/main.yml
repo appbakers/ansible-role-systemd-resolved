@@ -1,7 +1,7 @@
 ---
 
 - name: install systemd
-  pacman:
+  package:
     name: systemd
     state: present
 
